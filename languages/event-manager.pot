@@ -1,0 +1,248 @@
+# Copyright (C) 2024 Reza Kohan
+# This file is distributed under the same license as the Event Manager plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/event-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-07T13:22:31+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: event-manager\n"
+
+#. Plugin Name of the plugin
+#: event-manager.php
+msgid "Event Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: event-manager.php
+msgid "https://kohan.com.tr"
+msgstr ""
+
+#. Description of the plugin
+#: event-manager.php
+msgid "A plugin to manage events with custom post types, taxonomies, and more."
+msgstr ""
+
+#. Author of the plugin
+#: event-manager.php
+msgid "Reza Kohan"
+msgstr ""
+
+#. Author URI of the plugin
+#: event-manager.php
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#: event-manager.php:121
+#: event-manager.php:122
+#: event-manager.php:134
+msgid "Event RSVPs"
+msgstr ""
+
+#: event-manager.php:157
+msgid "No RSVPs yet."
+msgstr ""
+
+#: event-manager.php:161
+#: includes/class-event-cpt.php:25
+#: includes/class-event-shortcodes.php:87
+#: templates/archive-event.php:30
+msgid "No events found."
+msgstr ""
+
+#: includes/class-event-cpt.php:13
+#: includes/class-event-cpt.php:15
+msgid "Events"
+msgstr ""
+
+#: includes/class-event-cpt.php:14
+#: includes/class-event-cpt.php:16
+msgid "Event"
+msgstr ""
+
+#: includes/class-event-cpt.php:17
+msgid "Add New"
+msgstr ""
+
+#: includes/class-event-cpt.php:18
+msgid "Add New Event"
+msgstr ""
+
+#: includes/class-event-cpt.php:19
+msgid "New Event"
+msgstr ""
+
+#: includes/class-event-cpt.php:20
+msgid "Edit Event"
+msgstr ""
+
+#: includes/class-event-cpt.php:21
+msgid "View Event"
+msgstr ""
+
+#: includes/class-event-cpt.php:22
+msgid "All Events"
+msgstr ""
+
+#: includes/class-event-cpt.php:23
+msgid "Search Events"
+msgstr ""
+
+#: includes/class-event-cpt.php:24
+msgid "Parent Events:"
+msgstr ""
+
+#: includes/class-event-cpt.php:26
+msgid "No events found in Trash."
+msgstr ""
+
+#: includes/class-event-cpt.php:31
+msgid "A custom post type for events."
+msgstr ""
+
+#: includes/class-event-cpt.php:61
+msgid "Event Date"
+msgstr ""
+
+#: includes/class-event-cpt.php:62
+msgid "Location"
+msgstr ""
+
+#: includes/class-event-cpt.php:63
+msgid "Date"
+msgstr ""
+
+#: includes/class-event-metaboxes.php:11
+msgid "Event Details"
+msgstr ""
+
+#: includes/class-event-metaboxes.php:27
+msgid "Event Date:"
+msgstr ""
+
+#: includes/class-event-metaboxes.php:31
+msgid "Event Location:"
+msgstr ""
+
+#: includes/class-event-notifications.php:13
+msgid "New Event Published"
+msgstr ""
+
+#: includes/class-event-notifications.php:15
+msgid "A new event \"%s\" has been published. View it here: %s"
+msgstr ""
+
+#: includes/class-event-rest-api.php:106
+msgid "Event not found"
+msgstr ""
+
+#: includes/class-event-rsvp.php:21
+msgid "RSVP to this event"
+msgstr ""
+
+#: includes/class-event-rsvp.php:26
+msgid "Please log in to RSVP."
+msgstr ""
+
+#: includes/class-event-rsvp.php:37
+msgid "Invalid request."
+msgstr ""
+
+#: includes/class-event-rsvp.php:45
+msgid "You have already RSVPed."
+msgstr ""
+
+#: includes/class-event-rsvp.php:57
+msgid "Event RSVP Confirmation"
+msgstr ""
+
+#: includes/class-event-rsvp.php:58
+msgid "You have successfully RSVPed to the event \"%s\"."
+msgstr ""
+
+#: includes/class-event-rsvp.php:61
+msgid "RSVP successful!"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:79
+#: templates/archive-event.php:17
+#: templates/single-event.php:16
+msgid "Date:"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:80
+#: templates/archive-event.php:18
+#: templates/single-event.php:17
+msgid "Location:"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:105
+msgid "Event Type:"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:110
+msgid "All Types"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:116
+msgid "From Date:"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:120
+msgid "To Date:"
+msgstr ""
+
+#: includes/class-event-shortcodes.php:124
+msgid "Filter"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:5
+#: includes/class-event-taxonomy.php:15
+msgid "Event Types"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:6
+msgid "Event Type"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:7
+msgid "Search Event Types"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:8
+msgid "All Event Types"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:9
+msgid "Parent Event Type"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:10
+msgid "Parent Event Type:"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:11
+msgid "Edit Event Type"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:12
+msgid "Update Event Type"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:13
+msgid "Add New Event Type"
+msgstr ""
+
+#: includes/class-event-taxonomy.php:14
+msgid "New Event Type Name"
+msgstr ""
+
+#: templates/single-event.php:18
+msgid "Type:"
+msgstr ""
